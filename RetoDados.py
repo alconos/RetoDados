@@ -9,7 +9,7 @@ def mis_dados():
     time.sleep(2)
     suma=n+m
     
-    while resp == "s":
+    if resp == "s":
     
         print(n, m,"= ", suma)
         break    
