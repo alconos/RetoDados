@@ -15,6 +15,7 @@ def mis_dados():
         break    
     else:
         print("Adios")
+        quit()
     
     
     time.sleep(1) 
