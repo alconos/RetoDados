@@ -22,11 +22,13 @@ def mis_dados():
           
     if (suma == 7 or suma == 11):
         print("Todos ganan")
+        mis_dados()
     elif (suma ==2 or suma == 6 or suma == 12):
         print("Jugador gana")
-        
+        mis_dados()      
     else:
         print("Siga probando")   
+        mis_dados()
        
 
 mis_dados()
